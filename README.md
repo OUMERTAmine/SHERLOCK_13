@@ -7,17 +7,15 @@
 
 Jeu d'enquête multijoueur où 4 joueurs doivent identifier le coupable (James Moriarty) en échangeant des indices. Développé en C avec SDL2 pour l'interface client.
 
-## 📋 Prérequis
+##  Prérequis
 
 - **Compilateur C** : `gcc`
 - **SDL2** : Bibliothèques graphiques
 - **Make** : Pour utiliser le Makefile
 
-
-sudo apt-get install build-essential libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev make
-Compilation
+## Compilation
 make
-🎮 Lancement du jeu
+## Lancement du jeu
 Démarrez le serveur
 ./server 8080
 Lancez 4 clients (dans des terminaux séparés) :
@@ -26,10 +24,11 @@ Lancez 4 clients (dans des terminaux séparés) :
 ./sh13 localhost 8080 127.0.0.1 1236 Joueur3
 ./sh13 localhost 8080 127.0.0.1 1237 Joueur4
 
-Paramètres :
+## Paramètres :
 localhost 8080 : IP/port du serveur
 127.0.0.1 123X : IP/port unique pour chaque client
-Comment jouer
+
+## Comment jouer
 Connexion :
 
 Cliquez sur "Connect" dans chaque client.
