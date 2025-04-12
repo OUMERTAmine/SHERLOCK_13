@@ -5,38 +5,38 @@
 
 
 
-Jeu d'enquête multijoueur où 4 joueurs doivent identifier le coupable (James Moriarty) en échangeant des indices. Développé en C avec SDL2 pour l'interface client.
+Jeu d'enquête multijoueur où 4 joueurs doivent identifier le coupable (James Moriarty) en échangeant des indices. Développé en C avec SDL2 pour l'interface client.  
 
-##  Prérequis
+##  Prérequis  
 
-- **Compilateur C** : `gcc`
-- **SDL2** : Bibliothèques graphiques
-- **Make** : Pour utiliser le Makefile
+- **Compilateur C** : `gcc`  
+- **SDL2** : Bibliothèques graphiques  
+- **Make** : Pour utiliser le Makefile  
 
 ## Compilation
-make
+make  
 ## Lancement du jeu
-Démarrez le serveur
-./server 8080
-Lancez 4 clients (dans des terminaux séparés) :
-./sh13 localhost 8080 127.0.0.1 1234 Joueur1
-./sh13 localhost 8080 127.0.0.1 1235 Joueur2
-./sh13 localhost 8080 127.0.0.1 1236 Joueur3
-./sh13 localhost 8080 127.0.0.1 1237 Joueur4
+Démarrez le serveur  
+./server 8080  
+Lancez 4 clients (dans des terminaux séparés) :  
+./sh13 localhost 8080 127.0.0.1 1234 Joueur1  
+./sh13 localhost 8080 127.0.0.1 1235 Joueur2  
+./sh13 localhost 8080 127.0.0.1 1236 Joueur3  
+./sh13 localhost 8080 127.0.0.1 1237 Joueur4  
 
 ## Paramètres :
-localhost 8080 : IP/port du serveur
-127.0.0.1 123X : IP/port unique pour chaque client
+localhost 8080 : IP/port du serveur  
+127.0.0.1 123X : IP/port unique pour chaque client  
 
 ## Comment jouer
-Connexion :
+Connexion :  
 
-Cliquez sur "Connect" dans chaque client.
-Tour par tour :
-Sélectionnez un symbole (en haut) et/ou un joueur (à gauche).
-Cliquez sur "Go" pour :
-Symbole seul : Demander qui possède ce symbole (O)
-Symbole + Joueur : Interroger un joueur spécifique (S)
+Cliquez sur "Connect" dans chaque client.  
+Tour par tour :  
+Sélectionnez un symbole (en haut) et/ou un joueur (à gauche).  
+Cliquez sur "Go" pour :  
+Symbole seul : Demander qui possède ce symbole (O)  
+Symbole + Joueur : Interroger un joueur spécifique (S)  
 Suspect : Accuser un personnage (G)
 
 Victoire :
