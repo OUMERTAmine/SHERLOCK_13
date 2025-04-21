@@ -5,7 +5,7 @@
 
 
 
-Jeu d'enquête multijoueur où 4 joueurs doivent identifier le coupable (James Moriarty) en échangeant des indices. Développé en C avec SDL2 pour l'interface client.  
+Jeu d'enquête multijoueur où 4 joueurs doivent trouver le coupable en échangeant des indices. Développé en C avec SDL2 pour l'interface client.  
 
 ##  Prérequis  
 
@@ -27,6 +27,10 @@ Lancez 4 clients (dans des terminaux séparés) :
 ## Paramètres :
 localhost 8080 : IP/port du serveur  
 127.0.0.1 123X : IP/port unique pour chaque client  
+
+##Architecture Technique
+![architecture technique](https://github.com/user-attachments/assets/baa7412f-6387-4f16-b204-463774cb6fa1)
+
 
 ## Comment jouer
 Connexion :  
