@@ -14,7 +14,7 @@ Jeu d'enquête multijoueur où 4 joueurs doivent trouver le coupable en échange
 - **Make** : Pour utiliser le Makefile  
 
 ## Compilation
-make  
+Dans le terminal, exécute la commande "make", qui générera deux exécutables : server et sh13
 ## Lancement du jeu
 Démarrez le serveur  
 ./server 8080  
