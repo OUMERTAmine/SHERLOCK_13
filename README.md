@@ -28,7 +28,7 @@ Lancez 4 clients (dans des terminaux séparés) :
 localhost 8080 : IP/port du serveur  
 127.0.0.1 123X : IP/port unique pour chaque client  
 
-##Architecture Technique
+## Architecture Technique
 ![architecture technique](https://github.com/user-attachments/assets/baa7412f-6387-4f16-b204-463774cb6fa1)
 
 
